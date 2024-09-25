@@ -45,6 +45,7 @@ swappy
 qt5
 qt5-quickcontrols2
 qt5-svg
+firrefox
 
 
 sudo systemctl enable sddm
