@@ -1,0 +1,37 @@
+sudo pacman -S --needed \
+aquamarine \
+cliphist \
+curl \
+firefox \
+hyprland \
+hyprlang \
+hyprpaper \
+hyprcursor \
+hyplock \
+hyprpicker \
+hypridle \
+hyprutils \
+hyprwayland-scanner \
+ttf-jetbrains-mono-nerd \
+kitty \
+rofi \
+swaync \
+thunar \
+thunar-archive-plugin \
+thunar-volman \
+xdg-desktop-portal-hyprland \
+xfce4-terminal \
+waybar \
+wlogout \
+wofi \
+archlinux-logout-git \
+arcolinux-alacritty-git \
+arcolinux-hyprland-git \
+arcolinux-kitty-git \
+arcolinux-powermenu-git \
+arcolinux-pywal-cache-git \
+arcolinux-rofi-git \
+arcolinux-rofi-themes-git \
+arcolinux-wayland-app-hooks-git \
+arconet-xfce \
+ttf-jetbrains-mono-nerd
