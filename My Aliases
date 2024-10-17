@@ -1,0 +1,45 @@
+# My Aliases
+
+# Directory Navigation
+alias ..='cd ..'
+alias .2='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+
+# File Management with prompts
+alias mv='mv -i'
+alias rm='rm -i'
+alias cp='cp -i'
+alias ln='ln -i'
+alias mkdir='mkdir -pv'
+
+# Environment variables & system/disk info
+alias genv='printenv | grep -i'
+alias path='echo -e ${PATH//:/\\n} | less'
+alias now='date +"%T"'
+alias nowd='date +"%d.%m.%Y"'
+alias df='df -h'
+alias dusage='du -sh * 2>/dev/null'
+
+# System updates & Package Management
+# Debian
+alias update='sudo apt-get update -y'
+alias upgrade='sudo apt-get update && sudo apt-get upgrade -y'
+alias install='sudo apt-get install -y'
+
+
+# Git Shortcuts
+alias gs='git status'            # git status of repository
+alias ga='git add'               # Stage specific files
+alias ga.='git add .'            # Stage everything
+alias gal='git add -u'	         # Stage deleted and modified files only
+alias gall='git add -A'          # Stage all changes: new modified deleted files
+alias gl='git log'               # View detailed Git log
+alias gll='git log --oneline'    # View simplified, oneline-per-commit log
+
+
+# Improved network commands for frequent tasks
+alias ping='ping -c 5'              # Limit ping to 5 packets
+alias fastping='ping -c 100 -i 0.2' # Fast Ping 10 packets with 0.2 second intervals
